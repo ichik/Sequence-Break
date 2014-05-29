@@ -200,7 +200,12 @@ input:-webkit-autofill {
   z-index: 50;
   width: 30px;
 }
-@media (-webkit-min-device-pixel-ratio: 2) {
+@-moz-document url-prefix() {
+    .site-nav .stag-icon {
+        top: 48px;
+    }
+}
+@media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 2dppx) {
     .site-nav .stag-icon {
         top:47px;
     }
