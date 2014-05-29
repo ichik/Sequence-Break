@@ -1,0 +1,227 @@
+/*
+Theme Name: Ink Child Theme
+Theme URI: http://codestag.com/themes/ink
+Description: Child theme for customizing Ink.
+Version: 1.0
+Author: Codestag
+Author URI: http://codestag.com/
+Template: ink
+*/
+
+/* Import Stylesheets, don't remove these.
+-----------------------------------------------------------*/
+@import url('../ink/style.css');
+
+/* Required Wordpress Classes, don't remove these.
+-----------------------------------------------------------*/
+.aligncenter {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+.alignleft { float: left; }
+.alignright { float: right; }
+
+/* Make all custom CSS changes BELOW this line
+-----------------------------------------------------------*/
+/* Example: Change the sidebar background to blue:
+#sidebar {
+	background: blue;
+}
+*/
+/*
+Welcome to Custom CSS!
+
+CSS (Cascading Style Sheets) is a kind of code that tells the browser how
+to render a web page. You may delete these comments and get started with
+your customizations.
+
+By default, your stylesheet will be loaded after the theme stylesheets,
+which means that your rules can take precedence and override the theme CSS
+rules. Just write here what you want to change, you don't need to copy all
+your theme's stylesheet content.
+*/
+.entry-footer,.copyright,.footer-widgets-container {
+	border: 0;
+}
+
+.site-nav .stag-icon {
+	top: 44px;
+}
+
+a,a:link,a:visited,.stag-twitter-widget a:visited,.menu-item a:visited,page-cover--126 a:not(.stag-button):not(.ui-tabs-anchor) {
+	text-decoration: none;
+	border-bottom: 1px solid #0c4f72;
+	border-color: #487b95;
+	border-color: rgba(12,79,114,0.2);
+	color: #0c4f72;
+}
+
+a:visited {
+	color:#8c66b2;
+	border-color: #8c66b2;
+	border-color: rgba(102, 51, 153, 0.4);
+	}
+
+a:active,a:hover,.stag-twitter-widget a:hover,.menu-item a:hover {
+	color: #bb3300;
+	border-color: #cc663f;
+	border-color: rgba(187,51,0,0.2);
+}
+
+.site-header a,.entry-title a,.posted-on a {
+	color: inherit;
+	border: 0;
+}
+
+.stag-twitter time a {
+	border-color: #A3A3A3;
+	border-color: rgba(163,163,163,0.2);
+}
+
+.stag-twitter time a:hover {
+	border-color: #13171a;
+	border-color: rgba(19,23,26,0.2);
+}
+
+img#wpstats {
+	display: none;
+}
+
+img.custom-logo {
+	border: 0;
+}
+
+#site-navigation-toggle {
+	top: 60px;
+}
+
+blockquote {
+	font-style: italic;
+	font-weight:normal;
+	color: #333;
+	line-height: 1.5em;
+}
+
+.site-nav__section {
+	border: 0;
+}
+
+.search-form label {
+	border: 0;
+}
+.search-form:before {
+    font-family: 'FontAwesome';
+    position: absolute;
+    top: 20px;
+    vertical-align: middle;
+    left: 10px;
+    color:#ccc;
+    content: "\f002";
+}
+
+input.search-submit {
+	display: none;
+}
+
+input[type="search"] {
+	-webkit-appearance: none;
+	border: 1px solid #eee;
+	border-radius: 20px;
+	padding: 10px 10px 10px 25px;
+	padding: 0.625rem 0.625rem 0.625rem 1.7rem;
+	width: 210px;
+	transition: border-color 1s ease;
+	height: 20px;
+}
+@media \\0 screen {
+    input[type="search"] {
+        padding-right:0.1rem;
+    }
+}
+@media only screen and (max-device-width: 480px) {
+    input[type="search"] {
+        height:26px;
+    }
+}
+input[type="search"]:focus,input[type="search"]:hover {
+    border-color: #ccc;
+}
+.widget_search {
+    padding: 0;
+}
+
+a.no-u,a.no-u:link,a.no-u:active,a.no-u:hover,a.no-u:visited,.site-info a,.site-info a:link,.site-info a:hover,.site-info a:active,.site-info a:visited {
+	border: 0;
+}
+
+.RSS {
+	background: url("feed.png") no-repeat;
+	width: 16px;
+	height: 16px;
+	display: block;
+}
+.platform {
+    color:#f0ad2c;
+    border:1px solid #f0ad2c;
+    padding:5px 10px;
+    font-size:0.8em;
+    display:inline-block;
+    margin:10px 10px 10px 0;
+}
+.site-info {
+	width:100%;
+	}
+.tiled-gallery-item {
+	cursor:pointer;
+	}
+.archive-header {
+    margin:-20px 0;
+}
+input:-webkit-autofill {
+    -webkit-box-shadow: 0 0 0px 1000px #f9f9f9 inset;
+}
+.site-nav-overlay {
+    cursor: pointer;
+}
+.site-navigation-toggle {
+    transition: right 0.2s ease-in;
+    -webkit-backface-visibility: hidden;
+}
+.site-nav-drawer-open .site-navigation-toggle {
+    right:-20px;
+}
+.site-nav .stag-icon {
+  position: absolute;
+  top: 49px;
+  left: -5px;
+  font-size: 30px;
+  cursor: pointer;
+  z-index: 50;
+  width: 30px;
+}
+@media (-webkit-min-device-pixel-ratio: 2) {
+    .site-nav .stag-icon {
+        top:47px;
+    }
+}
+@media only screen and (max-device-width: 480px) {
+    .site-nav .stag-icon {
+        top:48px;
+    }
+}
+.site-nav--scrollable-container {
+    padding-left: 50px;
+}
+#search-12 {
+    margin-left: -10px;
+}
+.site-branding {
+	border-radius: 60px;
+	border:10px solid transparent;
+	margin:-10px 0 0 -10px;
+	transition: border-color 0.5s ease;
+	}
+.single .site-branding:hover {
+	border: 10px solid rgba(0, 0, 0, 0.2);
+	}
