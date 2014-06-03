@@ -20,19 +20,18 @@
 <?php
 #twitter cards hack
 if(is_single() || is_page()) {
- $twitter_title  = get_the_title();
-$twitter_desc   = get_the_excerpt();
-   $twitter_thumbs = wp_get_attachment_image_src( get_post_thumbnail_id($post->ID), full );
+    $twitter_title  = get_the_title();
+    $twitter_desc   = get_the_excerpt();
+    $twitter_thumbs = wp_get_attachment_image_src( get_post_thumbnail_id($post->ID), full );
     $twitter_thumb  = $twitter_thumbs[0];
-      if(!$twitter_thumb) {
-      $twitter_thumb = 'http://www.gravatar.com/avatar/8eb9ee80d39f13cbbad56da88ef3a6ee?rating=PG&size=75';
-    }
-  $twitter_name   = str_replace('@', '', get_the_author_meta('twitter'));
-  } else {
+    $og_url = get_permalink();
+}
+else {
 	$twitter_thumb = "http://sequencebreak.ru/wp-content/uploads/2014/05/sequencebreak-cover.png";
 	$twitter_desc = "Персональный блог @ichikumer о видеоиграх жанра «метроидвания»";
 	$twitter_title = "Sequence Break";
-	}
+	$og_url = "http://sequencebreak.ru";
+}
 ?>
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:site" content="@sqncbrk">
@@ -41,6 +40,12 @@ $twitter_desc   = get_the_excerpt();
 <meta name="twitter:image:src" content="<?php echo $twitter_thumb; ?>">
 <meta name="twitter:domain" content="SequenceBreak.ru">
 <meta name="twitter:description" content="<?php echo $twitter_desc; ?>">
+<meta property="og:title" content="<?php echo $twitter_title; ?>" />
+<meta property="og:type" content="article" />
+<meta property="og:image" content="<?php echo $twitter_thumb; ?>" />
+<meta property="og:url" content="<?php echo $og_url; ?>" />
+<meta property="og:description" content="<?php echo $twitter_desc; ?>" />
+<meta property="og:site_name" content="SequenceBreak.ru" />
 </head>
 <body <?php body_class(); ?> data-layout="<?php echo esc_attr( stag_site_layout() ); ?>">
 
