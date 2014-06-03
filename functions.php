@@ -33,4 +33,17 @@ function stag_posted_on() {
 function stag_get_google_font_uri() {
 	return 'http://fonts.googleapis.com/css?family=PT+Sans:400,700,400italic,700italic|Open+Sans:400italic,700italic,400,700&subset=latin,cyrillic';
 }
+remove_all_actions( 'do_feed_rss2' );
+remove_all_actions( 'do_feed_rss' );
+remove_all_actions( 'do_feed_rdf' );
+remove_all_actions( 'do_feed_atom' );
+add_action('init', 'customRSS');
+function customRSS(){
+        add_feed('sqncbrk', 'customRSSFunc');
+        global $wp_rewrite;
+        $wp_rewrite->add_external_rule( 'feed/', '?feed=sqncbrk' );
+}
+function customRSSFunc(){
+        get_template_part('feed', 'sqncbrk');
+}
 ?>
