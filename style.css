@@ -230,3 +230,10 @@ input:-webkit-autofill {
 .single .site-branding:hover {
 	border: 10px solid rgba(0, 0, 0, 0.2);
 	}
+.site-info img {
+    opacity:0.5;
+    transition: opacity 0.5s ease;
+}
+.site-info a:hover img {
+    opacity: 1;
+}
