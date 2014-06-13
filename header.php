@@ -51,7 +51,7 @@ else {
 
 <nav class="site-nav">
 	<div class="site-nav--scrollable-container">
-		<i class="stag-icon icon-bars"></i>
+		<i class="fa fa-navicon close-nav"></i>
 		<?php if( has_nav_menu( 'primary' ) ) : ?>
 		<nav id="site-navigation" class="navigation main-navigation site-nav__section" role="navigation">
 			<h4 class="widgettitle"><?php _e( 'Menu', 'stag' ); ?></h4>
@@ -86,7 +86,7 @@ else {
 				<p class="site-description"><?php bloginfo( 'description' ); ?></p>
 			</div>
 
-			<a href="#" id="site-navigation-toggle" class="site-navigation-toggle"><i class="stag-icon icon-bars"></i></a>
+			<a href="#" id="site-navigation-toggle" class="site-navigation-toggle"><i class="fa fa-navicon"></i></a>
 
 			<?php if ( ! is_author() && ( is_archive() || is_search() ) ) : ?>
 			<div class="archive-header">

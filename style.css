@@ -45,7 +45,7 @@ your theme's stylesheet content.
 	border: 0;
 }
 
-.site-nav .stag-icon {
+.site-nav .fa-navicon {
 	top: 44px;
 }
 
@@ -173,7 +173,7 @@ a.no-u,a.no-u:link,a.no-u:active,a.no-u:hover,a.no-u:visited,.site-info a,.site-
 	width:100%;
 	}
 .tiled-gallery-item {
-	cursor:pointer;
+/*	cursor:pointer;*/
 	}
 .archive-header {
     margin:-20px 0;
@@ -191,7 +191,7 @@ input:-webkit-autofill {
 .site-nav-drawer-open .site-navigation-toggle {
     right:-20px;
 }
-.site-nav .stag-icon {
+.site-nav .fa-navicon {
   position: absolute;
   top: 49px;
   left: -5px;
@@ -201,17 +201,17 @@ input:-webkit-autofill {
   width: 30px;
 }
 @-moz-document url-prefix() {
-    .site-nav .stag-icon {
+    .site-nav .fa-navicon {
         top: 48px;
     }
 }
 @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 2dppx) {
-    .site-nav .stag-icon {
+    .site-nav .fa-navicon {
         top:47px;
     }
 }
 @media only screen and (max-device-width: 480px) {
-    .site-nav .stag-icon {
+    .site-nav .fa-navicon {
         top:48px;
     }
 }
