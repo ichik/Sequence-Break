@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: Stag Framework\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-04-30 20:43+0530\n"
-"PO-Revision-Date: 2014-05-16 21:43+0400\n"
+"PO-Revision-Date: 2014-06-14 11:49+0400\n"
 "Last-Translator: ichik <ichikumer@gmail.com>\n"
 "Language-Team: Ram Ratan Maurya, John Fraskos <support@codestag.com>\n"
 "MIME-Version: 1.0\n"
@@ -42,7 +42,7 @@ msgstr ""
 
 #: ../_post-load.php:31
 msgid "Load More"
-msgstr ""
+msgstr "Давай ещё!"
 
 #: ../_post-share.php:9 ../author.php:82
 #, php-format
