@@ -24,23 +24,6 @@ Template: ink
 
 /* Make all custom CSS changes BELOW this line
 -----------------------------------------------------------*/
-/* Example: Change the sidebar background to blue:
-#sidebar {
-	background: blue;
-}
-*/
-/*
-Welcome to Custom CSS!
-
-CSS (Cascading Style Sheets) is a kind of code that tells the browser how
-to render a web page. You may delete these comments and get started with
-your customizations.
-
-By default, your stylesheet will be loaded after the theme stylesheets,
-which means that your rules can take precedence and override the theme CSS
-rules. Just write here what you want to change, you don't need to copy all
-your theme's stylesheet content.
-*/
 .entry-footer,.copyright,.footer-widgets-container {
 	border: 0;
 }
@@ -58,7 +41,7 @@ a,a:link,a:visited,.stag-twitter-widget a:visited,.menu-item a:visited,page-cove
 }
 
 a:visited {
-	color:#8c66b2;
+	color: #8c66b2;
 	border-color: #8c66b2;
 	border-color: rgba(102, 51, 153, 0.4);
 	}
@@ -98,7 +81,7 @@ img.custom-logo {
 
 blockquote {
 	font-style: italic;
-	font-weight:normal;
+	font-weight: normal;
 	color: #333;
 	line-height: 1.5em;
 }
@@ -116,7 +99,7 @@ blockquote {
     top: 20px;
     vertical-align: middle;
     left: 10px;
-    color:#ccc;
+    color: #ccc;
     content: "\f002";
 }
 
@@ -136,12 +119,12 @@ input[type="search"] {
 }
 @media \\0 screen {
     input[type="search"] {
-        padding-right:0.1rem;
+        padding-right: 0.1rem;
     }
 }
 @media only screen and (max-device-width: 480px) {
     input[type="search"] {
-        height:26px;
+        height: 26px;
     }
 }
 input[type="search"]:focus,input[type="search"]:hover {
@@ -162,21 +145,18 @@ a.no-u,a.no-u:link,a.no-u:active,a.no-u:hover,a.no-u:visited,.site-info a,.site-
 	display: block;
 }
 .platform {
-    color:#f0ad2c;
-    border:1px solid #f0ad2c;
-    padding:5px 10px;
-    font-size:0.8em;
-    display:inline-block;
-    margin:10px 10px 10px 0;
+    color: #f0ad2c;
+    border: 1px solid #f0ad2c;
+    padding: 5px 10px;
+    font-size: 0.8em;
+    display: inline-block;
+    margin: 10px 10px 10px 0;
 }
 .site-info {
-	width:100%;
-	}
-.tiled-gallery-item {
-/*	cursor:pointer;*/
+	width: 100%;
 	}
 .archive-header {
-    margin:-20px 0;
+    margin: -20px 0;
 }
 input:-webkit-autofill {
     -webkit-box-shadow: 0 0 0px 1000px #f9f9f9 inset;
@@ -189,7 +169,7 @@ input:-webkit-autofill {
     -webkit-backface-visibility: hidden;
 }
 .site-nav-drawer-open .site-navigation-toggle {
-    right:-20px;
+    right: -20px;
 }
 .site-nav .fa-navicon {
   position: absolute;
@@ -207,12 +187,12 @@ input:-webkit-autofill {
 }
 @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 2dppx) {
     .site-nav .fa-navicon {
-        top:47px;
+        top: 47px;
     }
 }
 @media only screen and (max-device-width: 480px) {
     .site-nav .fa-navicon {
-        top:48px;
+        top: 48px;
     }
 }
 .site-nav--scrollable-container {
@@ -223,15 +203,15 @@ input:-webkit-autofill {
 }
 .site-branding {
 	border-radius: 60px;
-	border:10px solid transparent;
-	margin:-10px 0 0 -10px;
+	border: 10px solid transparent;
+	margin: -10px 0 0 -10px;
 	transition: border-color 0.5s ease;
 	}
 .single .site-branding:hover {
 	border: 10px solid rgba(0, 0, 0, 0.2);
 	}
 .site-info img {
-    opacity:0.5;
+    opacity: 0.5;
     transition: opacity 0.5s ease;
 }
 .site-info a:hover img {
@@ -239,10 +219,11 @@ input:-webkit-autofill {
 }
 #infinite-handle {
     transition: all 0.5s ease;
-    border-radius:25px;
-    height:50px;
-	max-width:300px;
+    border-radius: 25px;
+    height: 50px;
+	max-width: 300px;
 }
 #load-more-posts {
     border-bottom: 0;
+    padding: 11px;
 }
