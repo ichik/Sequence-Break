@@ -96,14 +96,14 @@ blockquote {
 .search-form:before {
     font-family: 'FontAwesome';
     position: absolute;
-    top: 20px;
+    top: 10px;
     vertical-align: middle;
     left: 10px;
     color: #ccc;
     content: "\f002";
 }
 
-input.search-submit {
+button.search-submit {
 	display: none;
 }
 
@@ -115,16 +115,11 @@ input[type="search"] {
 	padding: 0.625rem 0.625rem 0.625rem 1.7rem;
 	width: 210px;
 	transition: border-color 1s ease;
-	height: 20px;
+	height: 42px;
 }
 @media \\0 screen {
     input[type="search"] {
         padding-right: 0.1rem;
-    }
-}
-@media only screen and (max-device-width: 480px) {
-    input[type="search"] {
-        height: 26px;
     }
 }
 input[type="search"]:focus,input[type="search"]:hover {
@@ -132,6 +127,7 @@ input[type="search"]:focus,input[type="search"]:hover {
 }
 .widget_search {
     padding: 0;
+	margin:14px 0 0 0;
 }
 
 a.no-u,a.no-u:link,a.no-u:active,a.no-u:hover,a.no-u:visited,.site-info a,.site-info a:link,.site-info a:hover,.site-info a:active,.site-info a:visited {
@@ -180,7 +176,7 @@ input:-webkit-autofill {
   z-index: 50;
   width: 30px;
 }
-@-moz-document url-prefix() {
+@-moz-document url-prefix() { /* Fucking Firefox */
     .site-nav .fa-navicon {
         top: 48px;
     }
