@@ -176,7 +176,7 @@ input:-webkit-autofill {
   z-index: 50;
   width: 30px;
 }
-@-moz-document url-prefix() { /* Fucking Firefox */
+@-moz-document url-prefix() {
     .site-nav .fa-navicon {
         top: 48px;
     }
