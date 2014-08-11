@@ -225,3 +225,6 @@ input:-webkit-autofill {
     margin:0;
     width:auto;
 }
+.footer-widgets.grid {
+    margin-left:0;
+}
