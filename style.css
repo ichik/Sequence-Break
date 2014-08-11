@@ -133,13 +133,6 @@ input[type="search"]:focus,input[type="search"]:hover {
 a.no-u,a.no-u:link,a.no-u:active,a.no-u:hover,a.no-u:visited,.site-info a,.site-info a:link,.site-info a:hover,.site-info a:active,.site-info a:visited {
 	border: 0;
 }
-
-.RSS {
-	background: url("feed.png") no-repeat;
-	width: 16px;
-	height: 16px;
-	display: block;
-}
 .platform {
     color: #f0ad2c;
     border: 1px solid #f0ad2c;
@@ -206,11 +199,11 @@ input:-webkit-autofill {
 .search-results .site-branding:hover,.single .site-branding:hover {
 	border: 10px solid rgba(0, 0, 0, 0.2);
 	}
-.site-info img {
+.footer-widgets img {
     opacity: 0.5;
     transition: opacity 0.5s ease;
 }
-.site-info a:hover img {
+.footer-widgets a:hover img {
     opacity: 1;
 }
 #infinite-handle {
@@ -222,4 +215,13 @@ input:-webkit-autofill {
 #load-more-posts {
     border-bottom: 0;
     padding: 11px;
+}
+.footer-widgets .textwidget {
+    padding:  1.875rem 0;
+    font-size: 13px;
+    font-size: 0.8125rem;
+}
+.footer-widgets .one-of-two,.footer-widgets .unit {
+    margin:0;
+    width:auto;
 }
