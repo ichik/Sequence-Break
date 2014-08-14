@@ -267,10 +267,10 @@ input:-webkit-autofill {
 .wp-caption {
 	margin: 20px auto;
 }
-.highlightimg {
+.highlight {
     background:#000;
 }
-.highlightimg p {
+.highlight p {
     font-style:italic;
     color:#fff;
     margin-bottom:0;
