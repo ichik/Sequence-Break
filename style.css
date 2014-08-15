@@ -228,3 +228,51 @@ input:-webkit-autofill {
 .footer-widgets.grid {
     margin-left:0;
 }
+
+.entry-content {
+	max-width: 100%;
+    width:100%;
+}
+
+.entry-content p,
+.entry-content h1,
+.entry-content h2,
+.entry-content h3,
+.entry-content h4,
+.entry-content h5,
+.entry-content h6,
+.entry-content blockquote,
+.entry-content table,
+.entry-content dl,
+.entry-content ul,
+.entry-content ol,
+.entry-content address,
+.entry-content pre,
+.entry-content .wp-audio-shortcode,
+.entry-content .wp-video-shortcode,
+.entry-content .page-links,
+.stag-section,
+.gallery,
+.tiled-gallery
+{
+	max-width: 970px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.entry-content iframe {
+	margin: 20px auto !important;
+}
+
+.wp-caption {
+	margin: 20px auto;
+}
+.highlight {
+    background:#000;
+}
+.highlight p {
+    font-style:italic;
+    color:#fff;
+    margin-bottom:0;
+    padding:0 0 30px 0;
+}
