@@ -76,7 +76,7 @@ img.custom-logo {
 }
 
 #site-navigation-toggle {
-	top: 60px;
+	top: 62px;
 }
 
 blockquote {
@@ -174,14 +174,9 @@ input:-webkit-autofill {
         top: 48px;
     }
 }
-@media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 2dppx) {
-    .site-nav .fa-navicon {
-        top: 47px;
-    }
-}
 @media only screen and (max-device-width: 480px) {
     .site-nav .fa-navicon {
-        top: 48px;
+        top: 50px;
     }
 }
 .site-nav--scrollable-container {
