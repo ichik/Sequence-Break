@@ -75,4 +75,17 @@ function my_mce_before_init_insert_formats( $init_array ) {
 } 
 // Attach callback to 'tiny_mce_before_init' 
 add_filter( 'tiny_mce_before_init', 'my_mce_before_init_insert_formats' );
+function os_body_class($classes) {
+        global $is_iphone;
+        if($is_iphone) $classes[] = 'iphone';
+        if ( stristr( $_SERVER['HTTP_USER_AGENT'],"mac") ) {
+                 $classes[] = 'osx';
+           } elseif ( stristr( $_SERVER['HTTP_USER_AGENT'],"linux") ) {
+                 $classes[] = 'linux';
+           } elseif ( stristr( $_SERVER['HTTP_USER_AGENT'],"windows") ) {
+                 $classes[] = 'windows';
+           }
+        return $classes;
+}
+add_filter('body_class','os_body_class');
 ?>
