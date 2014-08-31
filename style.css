@@ -76,7 +76,7 @@ img.custom-logo {
 }
 
 #site-navigation-toggle {
-	top: 62px;
+	top: 60px;
 }
 
 blockquote {
@@ -170,8 +170,10 @@ input:-webkit-autofill {
   width: 30px;
 }
 @-moz-document url-prefix() {
-    .site-nav .fa-navicon {
-        top: 48px;
+    @media (max-resolution: 1dppx) {
+        .site-nav .fa-navicon {
+            top: 48px;
+        }
     }
 }
 @media only screen and (max-device-width: 480px) {
