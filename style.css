@@ -203,11 +203,22 @@ input:-webkit-autofill {
 .search-results .site-branding:hover,.single .site-branding:hover {
 	border: 10px solid rgba(0, 0, 0, 0.2);
 	}
-.footer-widgets img {
+.feed,.twitter,.facebook {
     opacity: 0.5;
     transition: opacity 0.5s ease;
+    display: inline-block;
+    width: 26px;
+    height: 24px;
+    background:url("/feed.svg") 1px 0 no-repeat;
+    margin: 0 0 -8px 0;
 }
-.footer-widgets a:hover img {
+.twitter {
+    background-image: url("/twitter.svg");
+}
+.facebook {
+    background-image: url("/facebook.svg");
+}
+.feed:hover,.twitter:hover,.facebook:hover {
     opacity: 1;
 }
 #infinite-handle {
