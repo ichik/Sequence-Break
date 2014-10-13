@@ -291,3 +291,6 @@ input:-webkit-autofill {
     margin-bottom:0;
     padding:0 0 30px 0;
 }
+.iphone .post-content {
+    padding:0;
+}
