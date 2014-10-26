@@ -290,5 +290,9 @@ input:-webkit-autofill {
     padding:0 0 30px 0;
 }
 .iphone .post-content {
-    padding:0;
+    padding-left:10px;
+    padding-right:10px;
+}
+.article-cover__arrow {
+    bottom:90px;
 }
