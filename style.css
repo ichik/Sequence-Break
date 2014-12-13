@@ -268,7 +268,7 @@ input:-webkit-autofill {
 .gallery,
 .tiled-gallery
 {
-	max-width: 970px;
+	max-width: 740px;
 	margin-left: auto;
 	margin-right: auto;
 }
@@ -295,4 +295,10 @@ input:-webkit-autofill {
 }
 .article-cover__arrow {
     bottom:90px;
+}
+.entry-title a {
+  transition: opacity 150ms;
+}
+.entry-title a:hover {
+  opacity: .6;
 }
