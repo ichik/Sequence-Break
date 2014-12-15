@@ -22,9 +22,7 @@ function stag_posted_on() {
 	);
 
 	printf( __( '<span class="posted-on">%1$s</span>', 'stag' ),
-		sprintf( '<a href="%1$s" title="%2$s" rel="bookmark">%3$s</a>',
-			esc_url( get_permalink() ),
-			esc_attr( get_the_time() ),
+		sprintf( '%1$s',
 			$time_string
 		),
 		stag_post_reading_time()
