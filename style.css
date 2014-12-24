@@ -296,9 +296,12 @@ input:-webkit-autofill {
 .article-cover__arrow {
     bottom:90px;
 }
-.entry-title a {
-  transition: opacity 150ms;
+.post-cover-link {
+    border:0;
+    transition:background-color 200ms ease;
+    background-color:rgba(0,0,0,0.34);
+    z-index:1003;
 }
-.entry-title a:hover {
-  opacity: .6;
+.post-cover-link:hover {
+    background-color:rgba(0,0,0,0);
 }
