@@ -301,7 +301,7 @@ input:-webkit-autofill {
 .post-cover-link {
     border:0;
     transition:background-color 200ms ease;
-    background-color:rgba(0,0,0,0.34);
+    background-color:rgba(0,0,0,0.2);
     z-index:1003;
 }
 .post-cover-link:hover {
@@ -312,4 +312,8 @@ input:-webkit-autofill {
   #infinite-handle {
     margin: 50px auto;
   }
+}
+
+body {
+    font-family: 'PT Sans',sans-serif;
 }
