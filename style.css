@@ -227,6 +227,10 @@ input:-webkit-autofill {
     height: 50px;
 	max-width: 300px;
 }
+#infinite-hande:focus,#infinite-handle:active,#load-more-posts:focus,#load-more-posts:active {
+    outline:none;
+    background:inherit;
+}
 #load-more-posts {
     border-bottom: 0;
     padding: 11px;
