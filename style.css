@@ -24,6 +24,9 @@ Template: ink
 
 /* Make all custom CSS changes BELOW this line
 -----------------------------------------------------------*/
+body {
+    font-family: 'PT Sans',sans-serif;
+}
 .entry-footer,.copyright,.footer-widgets-container {
 	border: 0;
 }
