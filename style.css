@@ -76,7 +76,7 @@ img.custom-logo {
 }
 
 #site-navigation-toggle {
-	top: 60px;
+	top: 62px;
 }
 .osx #site-navigation-toggle {
     top: 62px;
@@ -312,4 +312,124 @@ input:-webkit-autofill {
   #infinite-handle {
     margin: 50px auto;
   }
+}
+@-webkit-keyframes swing
+{
+    15%
+    {
+        -webkit-transform:translateY(5px);
+    }
+    30%
+    {
+        -webkit-transform:translateY(-5px);
+    }
+    50%
+    {
+        -webkit-transform:translateY(3px);
+    }
+    65%
+    {
+        -webkit-transform:translateY(-3px);
+    }
+    80%
+    {
+        -webkit-transform:translateY(2px);
+    }
+    100%
+    {
+        -webkit-transform:translateY(0);
+    }
+}
+@keyframes swing
+{
+    15%
+    {
+        transform:translateY(5px);
+    }
+    30%
+    {
+        transform:translateY(-5px);
+    }
+    50%
+    {
+        transform:translateY(3px);
+    }
+    65%
+    {
+        transform:translateY(-3px);
+    }
+    80%
+    {
+        transform:translateY(2px);
+    }
+    100%
+    {
+        transform:translateY(0);
+    }
+}
+.fa-chevron-down:hover {
+    -webkit-animation:swing 1s ease;
+    animation:swing 1s ease;
+    -webkit-animation-iteration-count:1;
+    animation-iteration-count:1;
+}
+@-webkit-keyframes wiggle
+{
+    15%
+    {
+        -webkit-transform:translateX(5px);
+    }
+    30%
+    {
+        -webkit-transform:translateX(-5px);
+    }
+    50%
+    {
+        -webkit-transform:translateX(3px);
+    }
+    65%
+    {
+        -webkit-transform:translateX(-3px);
+    }
+    80%
+    {
+        -webkit-transform:translateX(2px);
+    }
+    100%
+    {
+        -webkit-transform:translateX(0);
+    }
+}
+@keyframes wiggle
+{
+    15%
+    {
+        transform:translateX(5px);
+    }
+    30%
+    {
+        transform:translateX(-5px);
+    }
+    50%
+    {
+        transform:translateX(3px);
+    }
+    65%
+    {
+        transform:translateX(-3px);
+    }
+    80%
+    {
+        transform:translateX(2px);
+    }
+    100%
+    {
+        transform:translateX(0);
+    }
+}
+#site-navigation-toggle .fa-navicon:hover {
+    -webkit-animation:wiggle 0.5s ease;
+    animation:wiggle 0.5s ease;
+    -webkit-animation-iteration-count:1;
+    animation-iteration-count:1;
 }
