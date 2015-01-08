@@ -79,6 +79,9 @@ img.custom-logo {
 }
 
 #site-navigation-toggle {
+    top: 60px;
+}
+.osx #site-navigation-toggle {
     top: 62px;
 }
 @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) { 
