@@ -225,14 +225,13 @@ input:-webkit-autofill {
     opacity: 1;
 }
 #infinite-handle {
-    transition: all 0.5s ease;
-    border-radius: 25px;
     height: 50px;
 	max-width: 300px;
+    transition: background 0.5s;
+    border-radius:25px;
 }
 #load-more-posts {
-    border-bottom: 0;
-    padding: 11px;
+   border-bottom:0;
 }
 .footer-widgets .textwidget {
     padding:  1.875rem 0;
