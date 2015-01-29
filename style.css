@@ -430,8 +430,8 @@ input:-webkit-autofill {
     }
 }
 #site-navigation-toggle .fa-navicon:hover {
-    -webkit-animation:wiggle 0.5s ease;
-    animation:wiggle 0.5s ease;
+    -webkit-animation:wiggle 1s ease;
+    animation:wiggle 1s ease;
     -webkit-animation-iteration-count:1;
     animation-iteration-count:1;
 }
