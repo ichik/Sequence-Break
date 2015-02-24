@@ -28,10 +28,6 @@ Template: ink
 	border: 0;
 }
 
-.site-nav .fa-navicon {
-	top: 44px;
-}
-
 a,a:link,a:visited,.stag-twitter-widget a:visited,.menu-item a:visited,page-cover--126 a:not(.stag-button):not(.ui-tabs-anchor) {
 	text-decoration: none;
 	border-bottom: 1px solid #0c4f72;
@@ -79,7 +75,7 @@ img.custom-logo {
     top: 60px;
 }
 .osx #site-navigation-toggle {
-    top: 62px;
+    top: 61px;
 }
 @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) { 
    #site-navigation-toggle {
