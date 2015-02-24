@@ -24,9 +24,6 @@ Template: ink
 
 /* Make all custom CSS changes BELOW this line
 -----------------------------------------------------------*/
-body {
-    font-family: 'PT Sans',sans-serif;
-}
 .entry-footer,.copyright,.footer-widgets-container {
 	border: 0;
 }
@@ -201,9 +198,9 @@ input:-webkit-autofill {
 	margin: -10px 0 0 -10px;
 	transition: border-color 0.5s ease;
 	}
-.search-results .site-branding:hover,.single .site-branding:hover {
-	border: 10px solid rgba(255, 255, 255, 0.2);
-	}
+.search-results .site-branding:hover,.single .site-branding:hover,.page-id-126 .site-branding:hover {
+	border: 10px solid rgba(240, 173, 44, 0.5);
+}
 .feed,.twitter,.facebook {
     opacity: 0.5;
     transition: opacity 0.5s ease;
@@ -286,6 +283,7 @@ input:-webkit-autofill {
 }
 .highlight {
     background:#000;
+    margin-bottom:30px;
 }
 .highlight p {
     font-style:italic;
@@ -430,8 +428,16 @@ input:-webkit-autofill {
     }
 }
 #site-navigation-toggle .fa-navicon:hover {
-    -webkit-animation:wiggle 1s ease;
-    animation:wiggle 1s ease;
+    -webkit-animation:wiggle 0.5s ease;
+    animation:wiggle 0.5s ease;
     -webkit-animation-iteration-count:1;
     animation-iteration-count:1;
+}
+@media screen and (min-width:1224px) {
+    #masthead {
+        overflow-y:visible;
+    }
+    .site-branding {
+        position:fixed;
+    }
 }
