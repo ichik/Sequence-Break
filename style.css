@@ -431,7 +431,7 @@ input:-webkit-autofill {
 }
 @media screen and (min-width:1224px) {
     #masthead {
-        overflow-y:visible;
+        overflow:visible;
         height:76px;
     }
     .site-branding {
