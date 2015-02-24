@@ -72,9 +72,10 @@ img.custom-logo {
 }
 
 #site-navigation-toggle {
-    top: 60px;
+    top: 62px;
 }
-.osx #site-navigation-toggle {
+
+.osx #site-navigation-toggle,.ie #site-navigation-toggle {
     top: 61px;
 }
 @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) { 
@@ -429,7 +430,7 @@ input:-webkit-autofill {
     -webkit-animation-iteration-count:1;
     animation-iteration-count:1;
 }
-@media screen and (min-width:1224px) {
+@media screen and (min-width:1280px) {
     #masthead {
         overflow:visible;
         height:76px;
