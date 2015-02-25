@@ -445,21 +445,20 @@ transform:translateZ(0);
     -webkit-transform:scale(1.1);
   }
 }
-
 @keyframes hvr-pop {
   50% {
-    -webkit-transform:scale(1.1);
+    transform:scale(1.1);
   }
 }s
 .search-results .site-branding:hover,.single .site-branding:hover,.page-id-126 .site-branding:hover {
-	-webkit-animation-name:hvr-pop;
-  animation-name:hvr-pop;
-  -webkit-animation-duration:0.3s;
-  animation-duration:0.3s;
-  -webkit-animation-timing-function:linear;
-  animation-timing-function:linear;
-  -webkit-animation-iteration-count:1;
-  animation-iteration-count:1;
+    -webkit-animation-name:hvr-pop;
+    animation-name:hvr-pop;
+    -webkit-animation-duration:0.3s;
+    animation-duration:0.3s;
+    -webkit-animation-timing-function:linear;
+    animation-timing-function:linear;
+    -webkit-animation-iteration-count:1;
+    animation-iteration-count:1;
 }
 .search-results .site-branding h1,.single .site-branding h1,.page-id-126 .site-branding h1 {
     display:block;
