@@ -78,13 +78,8 @@ img.custom-logo {
     top: 62px;
 }
 
-.osx #site-navigation-toggle,.ie #site-navigation-toggle {
+.ie #site-navigation-toggle {
     top: 61px;
-}
-@media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) { 
-   #site-navigation-toggle {
-	    top: 62px;
-    }
 }
 blockquote {
 	font-style: italic;
