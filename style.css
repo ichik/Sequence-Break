@@ -78,8 +78,8 @@ img.custom-logo {
     top: 62px;
 }
 
-.ie #site-navigation-toggle {
-    top: 61px;
+.windows #site-navigation-toggle {
+    top: 60px;
 }
 blockquote {
 	font-style: italic;
