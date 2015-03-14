@@ -468,7 +468,7 @@ transform:translateZ(0);
     margin:5px 0 0 5px;
     opacity:0;
 }
-.scroll-to-content {
+#scroll-to-content {
     display: block;
     position: absolute;
     bottom: 0;
@@ -477,6 +477,9 @@ transform:translateZ(0);
     text-align: center;
     padding-bottom: 20px;
     }
+.iphone.safari #scroll-to-content {
+    padding-bottom: 120px;
+}
 .fa-chevron-down {
     margin: 0 auto;
     float: none;
