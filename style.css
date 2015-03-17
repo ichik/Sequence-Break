@@ -86,6 +86,7 @@ blockquote {
 	font-weight: normal;
 	color: #333;
 	line-height: 1.5em;
+    padding-left:0;
 }
 
 .site-nav__section {
