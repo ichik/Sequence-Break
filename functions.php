@@ -86,4 +86,6 @@ function os_body_class($classes) {
         return $classes;
 }
 add_filter('body_class','os_body_class');
+add_image_size( mycustomsize640, 640, 480, false );
+add_image_size( mycustomsize320, 320, 240, false );
 ?>
