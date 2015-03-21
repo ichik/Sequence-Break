@@ -486,7 +486,7 @@ transform:translateZ(0);
     float: none;
     width: 30px;
 }
-@media screen and (min-width:1280px) {
+@media screen and (max-width:1280px) {
    .blockquote, .entry-content, .page-content {
        line-height:1.2em;
 }
