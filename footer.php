@@ -11,7 +11,7 @@
 		<footer id="colophon" class="site-footer" role="contentinfo">
 			<div class="copyright">
 				<div class="inside">
-                    <a href="http://ichikumer.ru" class="no-u">ichikumer.ru</a>&nbsp;•&nbsp;<a href="http://sequencebreak.ru/about" class="no-u">О Sequence Break</a>&nbsp;•&nbsp;<a href="http://sequencebreak.ru/metroidvanias/" class="no-u">О метроидваниях</a><br /><br /><nobr>Подписаться на обновления:&nbsp;&nbsp;<a href="http://feeds.feedburner.com/sequencebreak" class="no-u feed"></a>&nbsp;&nbsp;<a href="http://twitter.com/sqncbrk" class="no-u twitter"></a>&nbsp;&nbsp;<a href="http://facebook.com/sequencebreak"  class="no-u facebook"></a></nobr>
+                    <a href="http://ichikumer.ru" class="no-u">ichikumer.ru</a>&nbsp;•&nbsp;<a href="http://sequencebreak.ru/about/" class="no-u">О Sequence Break</a>&nbsp;•&nbsp;<a href="http://sequencebreak.ru/metroidvanias/" class="no-u">О метроидваниях</a><br /><br /><nobr>Подписаться на обновления:&nbsp;&nbsp;<a href="http://feeds.feedburner.com/sequencebreak" class="no-u feed"></a>&nbsp;&nbsp;<a href="http://twitter.com/sqncbrk" class="no-u twitter"></a>&nbsp;&nbsp;<a href="http://facebook.com/sequencebreak"  class="no-u facebook"></a></nobr>
 				</div>
 			</div><!-- .copyright -->
 		</footer><!-- #colophon -->
