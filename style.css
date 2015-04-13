@@ -490,3 +490,6 @@ transform:translateZ(0);
    .blockquote, .entry-content, .page-content {
        line-height:1.2em;
 }
+.entry-title {
+    margin-bottom:10px;
+}
