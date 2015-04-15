@@ -50,6 +50,21 @@ abbr {
         padding-top:250px;
     }
 }
+.metroid {
+    background:url("../../uploads/2015/04/Untitled-2.jpg") no-repeat 0 0 #000;
+    font-style:italic; 
+    color:#fff; 
+    padding:650px 0 20px 0;
+    margin-bottom:40px;
+}
+.metroid p {
+    margin-bottom:0;
+}
+@media screen and (min-width:1921px) {
+    .metroid {
+        background-size:100%;
+    }
+}
 /* end of fancy stuff */
 a,a:link,a:visited,.stag-twitter-widget a:visited,.menu-item a:visited,page-cover--126 a:not(.stag-button):not(.ui-tabs-anchor) {
 	text-decoration: none;
@@ -507,6 +522,22 @@ transform:translateZ(0);
     width: 30px;
 }
 @media screen and (max-width:1280px) {
-   .blockquote, .entry-content, .page-content {
+    .blockquote, .entry-content, .page-content, h2 {
        line-height:1.2em;
+    }
+    .article-cover__content {
+        padding:0 5px;
+    }
+    .entry-content {
+        padding:0;
+    }
+    .entry-content p,ul,h2 {
+        padding:0 10px;
+    }
+}
+@media screen and (min-width:740px) {
+    .copyright .inside {
+        margin:0 auto;
+        max-width:740px;
+    }
 }
