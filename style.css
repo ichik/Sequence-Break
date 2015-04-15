@@ -50,18 +50,18 @@ abbr {
         padding-top:250px;
     }
 }
-.metroid {
+.highlight.metroid {
     background:url("../../uploads/2015/04/Untitled-2.jpg") no-repeat 0 0 #000;
     font-style:italic; 
     color:#fff; 
     padding:650px 0 20px 0;
     margin-bottom:40px;
 }
-.metroid p {
+.highlight.metroid p {
     margin-bottom:0;
 }
 @media screen and (min-width:1921px) {
-    .metroid {
+    .highlight.metroid {
         background-size:100%;
     }
 }
