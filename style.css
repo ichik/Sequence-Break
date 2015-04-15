@@ -30,7 +30,27 @@ body {
 .entry-footer,.copyright,.footer-widgets-container {
 	border: 0;
 }
-
+h1.entry-title {
+    margin: 0 0 20px 0;
+}
+abbr {
+    border-bottom:1px dotted rgba(0,0,0,0.4);
+}
+.highlight abbr {
+    border-color:rgba(255,255,255,0.4);
+}
+/* all that fancy stuff */
+.alucard {
+    background:url("../../uploads/2015/04/tumblr_inline_nc6x813VH31r8z4qq.gif") no-repeat 0 0; 
+    padding-top:200px;
+}
+@media screen and (min-width:1921px) {
+    .alucard {
+        background-size:100%;
+        padding-top:250px;
+    }
+}
+/* end of fancy stuff */
 a,a:link,a:visited,.stag-twitter-widget a:visited,.menu-item a:visited,page-cover--126 a:not(.stag-button):not(.ui-tabs-anchor) {
 	text-decoration: none;
 	border-bottom: 1px solid #0c4f72;
@@ -489,7 +509,4 @@ transform:translateZ(0);
 @media screen and (max-width:1280px) {
    .blockquote, .entry-content, .page-content {
        line-height:1.2em;
-}
-.entry-title {
-    margin-bottom:10px;
 }
