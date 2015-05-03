@@ -307,7 +307,7 @@ input:-webkit-autofill {
     background:#000;
     margin-bottom:30px;
 }
-.highlight p {
+.highlight p,.highlight blockquote {
     font-style:italic;
     color:#fff;
     margin-bottom:0;
