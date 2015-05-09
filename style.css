@@ -39,33 +39,9 @@ abbr {
 .highlight abbr {
     border-color:rgba(255,255,255,0.4);
 }
-/* all that fancy stuff */
-.alucard {
-    background:url("../../uploads/2015/04/tumblr_inline_nc6x813VH31r8z4qq.gif") no-repeat 0 0; 
-    padding-top:200px;
+p.mark {
+    font-style:italic;font-size:0.7em;background:none;line-height: 1.5em;vertical-align: baseline;
 }
-@media screen and (min-width:1921px) {
-    .alucard {
-        background-size:100%;
-        padding-top:250px;
-    }
-}
-.highlight.metroid {
-    background:url("../../uploads/2015/04/Untitled-2.jpg") no-repeat 0 0 #000;
-    font-style:italic; 
-    color:#fff; 
-    padding:650px 0 20px 0;
-    margin-bottom:40px;
-}
-.highlight.metroid p {
-    margin-bottom:0;
-}
-@media screen and (min-width:1921px) {
-    .highlight.metroid {
-        background-size:100%;
-    }
-}
-/* end of fancy stuff */
 a,a:link,a:visited,.stag-twitter-widget a:visited,.menu-item a:visited,page-cover--126 a:not(.stag-button):not(.ui-tabs-anchor) {
 	text-decoration: none;
 	border-bottom: 1px solid #0c4f72;
